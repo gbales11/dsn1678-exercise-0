@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* typography */
+
+h1, h2,
+.brand {
+	font-family: Verdana,sans-serif;
+	color: #7A0E10;
+
+
+/* descriptive list */
+
+dl {
+	border: 1px;
+	/* overflow hidden is a clearfix it reminds the dl to wrap around its floated children*/
+	overflow: hidden;
+	
+}
+
+dt {
+	float: left;
+	clear: left;
+	width: 8em;
+	/* width was a guess had to find a width that was bigger than the word carbohydrates to work*/
+}
+
+dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* buttons */
+.btn,
+.btn:link, 
+.btn:visited { 
+	display: inline-block;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(to bottom, #FEDE1A, #C374DA) ;
+	border-radius: 6px;
+	color: #450470;
+	font-weight: bold;
+}
